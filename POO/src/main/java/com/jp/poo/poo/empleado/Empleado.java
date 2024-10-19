@@ -11,7 +11,7 @@ public class Empleado {
     public String empresa;
     public Double salarioBase;
     
-    public void calcularSueldo(Empleado empleado){
+    public void calcularSueldo(){
         if (this.edad >=30) {
             this.salarioBase += 200; 
         }
