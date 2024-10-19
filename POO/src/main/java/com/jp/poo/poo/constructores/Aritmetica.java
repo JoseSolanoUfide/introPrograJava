@@ -12,7 +12,12 @@ public class Aritmetica {
     int operando1;
     int operando2;
     
-    //este es el metodo constructor
+    
+    // este es el metodo constructor vacio
+    public Aritmetica(){
+     }
+    
+    //este es el metodo constructor con parametros
     public Aritmetica(int op1, int op2){
         operando1 = op1;
         operando2 = op2;
