@@ -18,7 +18,7 @@ public class EmpleadoPrueba {
         empleado1.edad = 30;
         empleado1.departamento = "Contabilidad";
         empleado1.teletrabajo = true;
-        empleado1.calcularSueldo(empleado1);
+        empleado1.calcularSueldo();
 
     }
 }
