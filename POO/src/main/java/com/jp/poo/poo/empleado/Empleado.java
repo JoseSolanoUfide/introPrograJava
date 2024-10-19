@@ -12,18 +12,18 @@ public class Empleado {
     public Double salarioBase;
     
     public void calcularSueldo(){
-        if (this.edad >=30) {
-            this.salarioBase += 200; 
+        if (edad >=30) {
+            salarioBase += 200; 
         }
-        if (this.departamento == "Contabilidad") {
-            this.salarioBase += 50; 
+        if (departamento == "Contabilidad") {
+            salarioBase += 50; 
         } else if (this.departamento == "Informatica") {
-            this.salarioBase += 80; 
+            salarioBase += 80; 
         } else if (this.departamento == "Direccion") {
-            this.salarioBase += 100;
+            salarioBase += 100;
         } 
         if (teletrabajo) {
-            this.salarioBase += 30;
+            salarioBase += 30;
         }
         
         System.out.println("Salario base = " + salarioBase);
