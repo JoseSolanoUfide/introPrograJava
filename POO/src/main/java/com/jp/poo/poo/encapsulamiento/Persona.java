@@ -32,11 +32,11 @@ public class Persona {
         }
 }
 
-    public class Test {
-     public static void main(String[] args) {
-        Persona persona = new Persona("Juan", 25);
-        System.out.println("Nombre: " + persona.getNombre());
-        System.out.println("Edad: " + persona.getEdad());
-    }
-}
+    //public class Test {
+     //public static void main(String[] args) {
+      //  Persona persona = new Persona("Juan", 25);
+       // System.out.println("Nombre: " + persona.getNombre());
+        //System.out.println("Edad: " + persona.getEdad());
+    //}
+//}
 }
