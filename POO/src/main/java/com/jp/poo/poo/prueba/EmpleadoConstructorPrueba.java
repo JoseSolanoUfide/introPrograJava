@@ -4,16 +4,16 @@
  */
 package com.jp.poo.poo.prueba;
 
-import com.jp.poo.poo.empleado.Empleado;
+import com.jp.poo.poo.constructores.EmpleadoConConstructor;
 
 /**
  *
  * @author jpsolano
  */
-public class EmpleadoPrueba {
+public class EmpleadoConstructorPrueba {
     public static void main(String[] args) {
         // Crear empleados
-        Empleado empleado1 = new Empleado();
+        EmpleadoConConstructor empleado1 = new EmpleadoConConstructor("Jose", 40,"Contabilidad");
         empleado1.salarioBase = 100.0;
         empleado1.edad = 30;
         empleado1.departamento = "Contabilidad";

@@ -1,7 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.jp.poo.poo.constructores;
 
-package com.jp.poo.poo.empleado;
-
-public class Empleado {
+/**
+ *
+ * @author josesolano
+ */
+public class EmpleadoConConstructor {
     
     public String DNI;
     public String nombre;
@@ -10,6 +17,20 @@ public class Empleado {
     public Boolean teletrabajo;
     public String empresa;
     public Double salarioBase;
+    
+    
+    public EmpleadoConConstructor(){
+    
+    }
+    
+    
+    public EmpleadoConConstructor(String nombre, int edad, String departamento){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.departamento = departamento;
+    
+    }
+    
     
     public void calcularSueldo(){
         if (edad >=30) {
@@ -27,5 +48,5 @@ public class Empleado {
         }
         
         System.out.println("Salario base = " + salarioBase);
-}
-}
+    
+}}
